@@ -7,7 +7,7 @@ This repository contains a simple personal portfolio website built with HTML, CS
 - `style.css` — website styling
 - `script.js` — small script for dynamic footer year
 
-## How to edit the website content
+## How to edit the website conte
 
 1. Open the repository in GitHub.
 2. Click on `index.html`.
