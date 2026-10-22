@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Data Analyst</title>
+    <meta
+      name="description"
+      content="Portfolio website for a data analyst showcasing projects, skills, and contact information."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">Your Name</div>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Data Analyst • Business Intelligence • SQL</p>
+            <h1>Turning raw data into clear business decisions.</h1>
+            <p class="lead">
+              I help businesses understand trends, improve performance, and make smarter
+              decisions using SQL, Excel, Python, and dashboards.
+            </p>
+            <div class="cta-group">
+              <a class="btn btn-primary" href="#projects">View Projects</a>
+              <a class="btn btn-secondary" href="#contact">Contact Me</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="mini-stat">
+              <span class="label">Projects</span>
+              <strong>10+</strong>
+            </div>
+            <div class="mini-stat">
+              <span class="label">Tools</span>
+              <strong>SQL, Python, Power BI</strong>
+            </div>
+            <div class="mini-stat">
+              <span class="label">Focus</span>
+              <strong>Insights & Reporting</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h2>Analyst with a passion for solving business problems.</h2>
+          </div>
+          <div class="about-grid">
+            <div>
+              <p>
+                I am a data analyst focused on transforming raw information into clear,
+                actionable insights. My work combines data cleaning, statistical analysis,
+                dashboard design, and communication to help teams understand performance and
+                opportunities.
+              </p>
+              <p>
+                I enjoy building reports, exploring patterns, and translating data into business
+                language that stakeholders can act on.
+              </p>
+            </div>
+            <div class="info-card">
+              <ul>
+                <li><strong>Location:</strong> Your City, Country</li>
+                <li><strong>Email:</strong> yourname@email.com</li>
+                <li><strong>LinkedIn:</strong> linkedin.com/in/yourname</li>
+                <li><strong>GitHub:</strong> github.com/yourusername</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Selected data projects</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <span class="tag">SQL</span>
+              <h3>Sales Performance Dashboard</h3>
+              <p>
+                Built a KPI dashboard to monitor revenue, profit, channel performance, and regional
+                growth trends.
+              </p>
+              <a href="#">View Case Study</a>
+            </article>
+
+            <article class="project-card">
+              <span class="tag">Python</span>
+              <h3>Customer Churn Analysis</h3>
+              <p>
+                Identified churn drivers and segments with the highest retention risk using Python and
+                statistical analysis.
+              </p>
+              <a href="#">View Case Study</a>
+            </article>
+
+            <article class="project-card">
+              <span class="tag">Power BI</span>
+              <h3>Marketing Funnel Optimization</h3>
+              <p>
+                Analyzed campaign conversions and conversion drop-off across channels to improve ROI.
+              </p>
+              <a href="#">View Case Study</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools I use</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-box">SQL</div>
+            <div class="skill-box">Python</div>
+            <div class="skill-box">Excel</div>
+            <div class="skill-box">Power BI</div>
+            <div class="skill-box">Tableau</div>
+            <div class="skill-box">Data Cleaning</div>
+            <div class="skill-box">Dashboard Design</div>
+            <div class="skill-box">Analytics</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s work together.</h2>
+          </div>
+          <a class="btn btn-primary" href="mailto:yourname@email.com">yourname@email.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> Your Name</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
